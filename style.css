@@ -1,0 +1,42 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px; /* This is to make the border visible */
+    line-height: 75 px ; 
+    font-size: 50px;
+    cursor: pointer;
+    /* color :blueviolet */
+}
+
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    color: #FEE715;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    /* color :blueviolet; */
+    color : #FEE715;
+}
+
+#restartBtn{
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
+    background-color: #FEE715;
+    border: 2px solid;
+    border-radius: 5px;
+    /* padding: 5px; */
+    /* margin: 10px; */
+    cursor: pointer;
+    color: #101820;
+}
+
+/* change the whole background to black */
+body{
+    background-color: #101820
+}
